@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+  background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.navbar{
+background:rgba(237, 243, 243, 0.432);;
+}
+.nav-link , .navbar-brand{
+color: #666;;
+cursor: pointer;
+}
+.nav-link{
+margin-right: 1em !important;
+}
+.nav-link:hover{
+background: (240,255,255, 1);
+color: #343a40;
+}
+.navbar-collapse{
+justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+position: relative;
+background-image: url('../pics/blurred-surgery.jpg');
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+
+.about{
+position: absolute;
+top: 30%;
+margin: auto;
+padding: 2em;
+}
+.about h1{
+ color:#F97300 
+}
+.about p{
+ color:#666;
+ font-size: 20px;
+ width: 70%;
+ line-height: 1.5;
+ text-align: justify;
+ box-sizing: content-box;
+
+}
+.about button{
+ border:1px  solid #F97300;
+ background:#F97300 ;
+ color:#fff;
+}
+
+.people{
+  margin: 2em 0;
+  padding: 1em;
+  position: relative;
+ }
+ .people h1{
+  color:#F97300;
+  margin: 1em;
+ }
+ .people img{
+  height: 100%;
+  width: 100%;
+     border-radius: 50%
+ }
+ .people span{
+  display: block;
+  color: #888;
+  position: center;
+  left: 115px;
+ }
+ .people .desc.right {
+  padding: 2em;
+  border-left:4px solid #10828C;
+ }
+ .people .desc.left{
+  padding: 2em;
+  border-right:4px solid #10828C;
+ }
+ .people .desc h3{
+  color: #10828C;
+ }
+ .people .desc p{
+  line-height:2;
+  color:#888;
+ }
+ .people .desc.left h3,
+ .people .desc.left p
+ {
+  line-height:2;
+  text-align: end;
+ }
+ /*service*/
+.service{
+  margin: 4em 0;
+  position: relative; 
+ }
+ .service h1,
+ .price h1{
+  color:#F97300;
+  margin: 2em; 
+ }
+ .service img{
+   height: 15rem;
+   width: 100%;
+   margin: 1em;
+   border: solid 2px #c7c1c1 ;
+   box-shadow:#c7c1c1 1px -2px 8px;
+ 
+}
+.zoomed:hover {
+  transform: scale(1.05); 
+  letter-spacing: 5px;
+  
+}
+.service h3{
+  color: white;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.price {
+  margin: 2em 0;
+  padding: 1em;
+  position: relative;
+}
+
+.contact{
+  margin: 6em 0;
+  position: relative;  
+ }
+ .contact h1{
+  padding:2em 1px;
+  color: #F97300; 
+ }
+ .contact .right{
+  max-width: 600px;
+ }
+ .contact .right .btn-secondary{
+  background:  #F97300;
+  color: #fff;
+  border:0;
+ }
+ .contact .right .form-control::placeholder{
+  color: #888;
+  font-size: 16px;
+ }
